@@ -21,7 +21,7 @@ for($i = 1; $i < 13; $i++){
 //create an array of 5 fruit
 $Fav_fruits = array("Mango", "Banana", "Orange", "Apple", "Pineapple");
  foreach($Fav_fruits as $fruit){
-    if($fruit == "Mango"){
+    if($fruit === "Mango"){
         echo "Mango is my favorite fruit!<br>";
     }
  }
