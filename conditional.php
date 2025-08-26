@@ -50,6 +50,9 @@ switch($day){
     case "Saturday":
         echo "It's the weekend!.<br>";
         break;
+    case "Sunday":
+        echo "Weekend vibes!. <br>";
+        break;
 }
 
 
