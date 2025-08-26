@@ -56,12 +56,18 @@ switch($day){
 }
  // Loops
  // while loop
+echo "....While Loop..."."<br>";
+
  $count = 1;
      while($count < 5){
         echo "count: $count<br>";
         $count++;
      }
-
-     
+ echo "<br>";
+// for loop
+echo "....For Loop..."."<br>";
+for($i = 1; $i <= 15; $i++){
+    echo "count: $i<br>";
+}   
 
 ?>
