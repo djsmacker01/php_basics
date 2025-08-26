@@ -54,6 +54,12 @@ switch($day){
         echo "Weekend vibes!. <br>";
         break;
 }
-
+ // Loops
+ // while loop
+ $count = 1;
+     while($count < 5){
+        echo "count: $count<br>";
+        $count++;
+     }
 
 ?>
